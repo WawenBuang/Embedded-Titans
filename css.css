@@ -1,0 +1,60 @@
+.parallax {
+    background-image: url('tiatans2.png'); /* Replace 'background.jpg' with your background image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+
+/* Additional styles for other elements */
+ h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 48px;
+            text-align: center;
+            margin-top: 100px; /* Adjust spacing from the top */
+            color: #5425d6;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            transition: transform 0.3s ease-in-out; /* Add transition for smoother effect */
+        }
+          h1:hover {
+            transform: scale(1.1); /* Scale up the text on hover */
+            color: #64ba3b; /* Change text color on hover */
+        }
+              /* Add animation effect */
+        @keyframes neon {
+            from { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffd700, 0 0 70px #ffd700, 0 0 80px #ffd700, 0 0 100px #ffd700, 0 0 150px #ffd700; }
+            to { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffd700, 0 0 35px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700, 0 0 75px #ffd700; }
+        }
+
+        /* Apply the animation to the h1 */
+        h1.neon {
+            animation: neon 1.5s infinite alternate; /* Apply the animation infinitely */
+        }
+        .link-container {
+            text-align: right;
+        }
+
+        .link-container h4 {
+            font-size: 18px;
+            margin-top: 0; /* Remove default margin of h4 */
+        }
+        h4 a {
+            text-align: right;
+            font-size: 18px;
+            margin-top: 0; /* Remove default margin of h4 */
+            display: block; /* Make the link fill the width of its container */
+        }
