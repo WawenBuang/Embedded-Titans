@@ -1,0 +1,87 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Bar Styles */
+  nav {
+    display: relative;
+    background: #20860e;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #logo {
+    width: 60px; /* Adjust as needed */
+    height: auto;
+    border-radius: 30px;
+  }
+  nav p {
+    background-color: #8da439;
+    padding: 12px;
+    margin-top: 12px;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: linear-gradient(to right, #633838, #8da439);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    padding-bottom: 12px;
+  }
+  .hero p {
+    margin-bottom: 20px;
+  }
+  .hero button {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  /* Services Section Styles */
+  .services {
+    padding: 20px;
+    text-align: center;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0074D9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 100px 50px;
+    }
+    .responsive {
+        width: 100%;
+        height: auto;
+      }
+      
+
+  }
+  /* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #20860e;
+    color: white;
+}
+
+
+  
