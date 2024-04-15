@@ -20,12 +20,6 @@
     margin: 10px;
   }
   
-  #prize {
-    width: 70px; /* Adjust as needed */
-    height: auto;
-    border-radius: 50px;
-    margin: 10px;
-  }
   nav p {
     padding: 12px;
     margin-top: 12px;
@@ -65,7 +59,7 @@
     height: auto;
     padding: 20px;
     text-align: center;
-    background-color: rgba(30, 26, 28, 0.3)
+    
     
   }
   button {
