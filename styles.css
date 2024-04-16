@@ -69,6 +69,7 @@
     color: white;
     border: none;
     cursor: pointer;
+    margin: 10px;
 }
 button a {
     text-decoration: none;
