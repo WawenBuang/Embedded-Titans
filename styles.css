@@ -52,7 +52,7 @@
   
   /* Services Section Styles */
   .services {
-    background-color: linear-gradient(#292126, #802521), rgba(113, 160, 47, 0.3);
+    background: rgba(76, 175, 80, 0.3);
     background-size: cover;
     background-position: center;
     background-position: 50%, 0 0;
@@ -69,7 +69,9 @@
     color: white;
     border: none;
     cursor: pointer;
-    margin: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
 }
 button a {
     text-decoration: none;
@@ -81,9 +83,13 @@ button a {
     .hero {
       padding: 100px 50px;
     }
+    #flagimg {
+      background: linear-gradient(to right, #051d89, #8da439);
+    }
     .responsive {
         width: 100%;
         height: auto;
+        
       }
       nav {
         display: relative;
