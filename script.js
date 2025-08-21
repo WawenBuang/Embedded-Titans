@@ -161,12 +161,12 @@ function navigateTo(page) {
       <section id="contactSection" style="margin-top:40px;">
         <h3>👤 About Me & Contact Info</h3>
         <div style="display:flex;align-items:center;gap:32px;flex-wrap:wrap;">
-          <img src="images/profile.jpg" alt="Bronson Barnabas" style="width:120px;height:120px;object-fit:cover;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);">
+          <img src="images/profile.png" alt="Bronson Barnabas" style="width:120px;height:120px;object-fit:cover;border-radius:50%;box-shadow:0 2px 8px rgba(0,0,0,0.12);">
           <div>
             <p><strong>Name:</strong> Bronson Barnabas</p>
             <p><strong>Email:</strong> <a href="mailto:bronsonbarnabas27@gmail.com" style="color:#0097a7;text-decoration:underline;">bronsonbarnabas27@gmail.com</a></p>
-            <p><strong>WhatsApp:</strong> <a href="https://wa.me/67570000000" style="color:#0097a7;text-decoration:underline;">+675 7000 0000</a></p>
-            <p><strong>Location:</strong> Port Moresby, PNG</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/67579889554" style="color:#0097a7;text-decoration:underline;">+675 79889554</a></p>
+            <p><strong>Location:</strong> Lae Morobe, PNG</p>
           </div>
         </div>
       </section>
